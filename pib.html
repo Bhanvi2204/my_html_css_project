@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Information Bureau</title>
+    <style>
+        #main {
+            margin: auto;
+            padding: 0%;
+
+
+        }
+
+        .header {
+            justify-content: space-between;
+        }
+
+        .top {
+            border: 2px white;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 350px;
+            flex-wrap: wrap;
+        }
+
+        .header #list ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            border: 2px orange;
+            height: 50px;
+            background-color: orange;
+            align-items: center;
+            color: white;
+            font-family: cursive;
+            padding: 20px;
+        }
+
+        .middlebox {
+            border: 2px;
+            width: 1170;
+            height: 438;
+            background-color: lightgrey;
+            margin-left: 50px;
+            margin-right: 50px;
+            justify-content: space-around;
+            display: flex;
+
+        }
+
+        .middlebox .para2 {
+            border: 2px;
+            width: 262.5px;
+            height: 380px;
+            margin: 10px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+
+
+        .list2 ul li {
+            list-style: none;
+            color: blue;
+            font-family: cursive;
+            text-decoration: underline;
+
+        }
+
+        .footer {
+            display: flex;
+        }
+
+        .box2 {
+            border: 2px;
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            background-color: green;
+            color: white;
+            justify-content: space-between;
+            font-family: cursive;
+            padding: 30px;
+        }
+    </style>
+    <div class="header">
+        <div class="top">
+            <div id="logo"><img src="pictures/indian-emblem.png" alt="Indian emblem"></div>
+            <div id="Name"><b>
+                    <h1>Press Information Bureau</h1>
+                </b></div>
+            <div id="img"><img src="pictures/ph202183101.png" alt="azadi pic" height="100px" width="150px"></div>
+        </div>
+        <div id="list">
+            <ul>
+                <li>Home</li>
+                <li>Preview</li>
+                <li><label for="videos">Video:</label>
+
+                    <select name="videos" id="videos">
+                        <option value="pending videos">Pending Video</option>
+                        <option value="Approved videos">Approved videos</option>
+                    </select>
+                </li>
+                <li>Modify</li>
+                <li>Pool</li>
+                <li><input type="button" value="Get started" placeholder="Get Started"></li>
+            </ul>
+        </div>
+        <div class="middlebox">
+
+            <div><img src="pictures/T202309155187.jpg" alt="g20" width="700px" height="400px"></div>
+            <div class="para2">
+
+
+
+                <div class="list2">
+                    <ul>
+                        <li><img src="pictures/prime-minister.png" alt=""></li>
+                        <li>
+                            <h2>Narender Modi</h2>
+                        </li>
+                        <li>Press Releases</li>
+                        <li>Speeches</li>
+                        <li>Photos</li>
+                        <li>Videos</li>
+                        <li>Visits Abroad</li>
+                        <li>CCEA Decisions</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <div class="box2">
+            <div id="heading">
+                <h2>RTI and contact us</h2>
+            </div>
+            <div class="list3">
+                <ul>
+                    <li>Telephone number</li>
+                    <li>Contact details</li>
+                    <li>Citizen list</li>
+                    <li>Allocation Budget</li>
+                    <li>Information manual</li>
+                    <li>Web Information manager</li>
+                </ul>
+            </div>
+            <div class="list4">
+                <ul>
+                    <li>Ministry of textiles</li>
+                    <li>Ministry of Education</li>
+                    <li>Ministry of Finance</li>
+                    <li>Ministry of Healthcare</li>
+                    <li>Ministry of Defence</li>
+                    <li>Ministry of Indusrtry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</head>
